@@ -21,8 +21,20 @@
 .dark-2{
     color:  #474747;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-desc{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #fff8f3;
+}
 
-.btn-primary{
+.btn-primary, .Downlod{
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -70,26 +82,32 @@ nav li a{
     display: flex;
     justify-content: space-between;
     margin: 0px 35px 0px 200px;
-    
 
 }
 
 .banner-content{
     max-width: 580px;
+    margin-top: 70px;
+    
 }
 .banner-h4{
     color:  #474747;
     font-size: 45px;
     font-weight: 600px;
+    margin: 0px;
+    margin-top: 70px;
 }
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin-top: 10px;
+    
 }
 
 .banner-des{
     color:  #474747;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .banner-profile-img{
@@ -97,3 +115,129 @@ nav li a{
     margin-bottom: -5px;
    
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about-me{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.About-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-desc{
+    font-weight: 600;
+    
+}
+
+.section-desc{
+    text-align: center;
+    padding: 0px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-top: 130px;
+
+}
+/* app-container styles*/
+
+.app-container{
+    display: flex;
+    gap: 24px;
+}
+.app{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume-container */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-weight: bold;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 0px;
+}
+.Downlods{
+    display: flex;
+    justify-content: center;
+}
+.Downlod{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* footer styles */
+
+footer{
+    padding: 130px 230px ;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.foot-section-title{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.foot-desc{
+    color: #757575;
+}
+
+.foot-form-title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.icon a{
+    margin-right: 20px;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 24px;
+    border: none;
+    
+}
+
+.text-are{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 50px 30px;
+    margin-bottom: 24px;
+    border: none;    
+}
+
