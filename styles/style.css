@@ -240,4 +240,26 @@ footer input[type="text"], footer input[type="email"]{
     margin-bottom: 24px;
     border: none;    
 }
+.hide{
+    display: none;
+}
 
+@media screen and (max-width:576px) {
+    .header{
+        background-image: url(../images/developer.png);
+        
+    }
+    nav{
+        justify-content: center;
+    }
+    nav ul{
+        gap: 20px;
+        margin-left: 100px;
+    }
+    nav ul li{
+        margin-right: 0px;
+    }
+    .btn-primary{
+        width: 145px;
+    }
+}
