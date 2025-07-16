@@ -34,7 +34,7 @@
     background-color: #fff8f3;
 }
 
-.btn-primary, .Downlod{
+.btn-primary, .Down{
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -179,11 +179,11 @@ main{
 .resume hr{
     margin: 30px 0px;
 }
-.Downlods{
+.Down{
     display: flex;
     justify-content: center;
 }
-.Downlod{
+.Down{
     margin-top: 50px;
     margin-bottom: 50px;
 }
